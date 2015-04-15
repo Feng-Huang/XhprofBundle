@@ -23,6 +23,7 @@ abstract class ProphecyTestCase extends \PHPUnit_Framework_TestCase
 
     /**
      * @param string $className
+     * @return \Prophecy\Prophecy\ObjectProphecy
      */
     public function getProphecy($className)
     {
